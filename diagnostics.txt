@@ -1,0 +1,809 @@
+﻿=== DIAGNOSTICS REPORT ===
+Timestamp: 11/13/2025 21:32:46
+--- PYTHON INTERPRETER & VENV ---
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\python.exe
+C:\Python314\python.exe
+C:\Program Files\Python312\python.exe
+C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe
+C:\Users\Teja\AppData\Local\Microsoft\WindowsApps\python.exe
+Python 3.12.4
+VIRTUAL_ENV:
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv
+--- PIP LIST (key packages) ---
+
+geoarrow-pandas           0.1.1
+geopandas                 1.1.1
+pandas                    2.3.3
+plotly                    6.3.1
+scikit-learn              1.7.2
+tensorflow                2.20.0
+torch                     2.8.0
+xgboost                   3.0.5
+
+
+--- PROJECT TREE (top 3 levels) ---
+
+FullName                                                                                                         Length
+--------                                                                                                         ------
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\$out                                                                      34
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\.vscode                                                                     
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\.vscode\settings.json                                                     42
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\dashboard                                                                   
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\data                                                                        
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\data\processed                                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\data\processed\ibtracs_nio_cleaned.csv                                433248
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\data\raw                                                                    
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\data\raw\ibtracs.NI.list.v04r01.csv                                   ...340
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\data\raw\ibtracs_nio_sample.csv                                       434271
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\diagnostics.txt                                                          777
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\notebooks                                                                   
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\src                                                                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\src\03_data_cleaning.py                                                  877
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\src\test_data.py                                                         144
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv                                                                        
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\etc                                                                    
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\etc\jupyter                                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\etc\jupyter\jupyter_notebook_config.d                                  
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\etc\jupyter\jupyter_server_config.d                                    
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\etc\jupyter\nbconfig                                                   
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Include                                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib                                                                    
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages                                                      
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\__pycache__                                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\_argon2_cffi_bindings                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\_cffi_backend.cp312-win_amd64.pyd              181248
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\_distutils_hack                                      
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\_plotly_utils                                        
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\_yaml                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\absl                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\absl_py-2.3.1.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\adodbapi                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\anyio                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\anyio-4.11.0.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\argon2                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\argon2_cffi_bindings-25.1.0.dist-info                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\argon2_cffi-25.1.0.dist-info                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\arrow                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\arrow-1.3.0.dist-info                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\asttokens                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\asttokens-3.0.0.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\astunparse                                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\astunparse-1.6.3.dist-info                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\async_lru                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\async_lru-2.0.5.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\attr                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\attrs                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\attrs-25.4.0.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\babel                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\babel-2.17.0.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\beautifulsoup4-4.14.2.dist-info                      
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\bleach                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\bleach-6.2.0.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\blinker                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\blinker-1.9.0.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\branca                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\branca-0.8.2.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\bs4                                                  
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\certifi                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\certifi-2025.10.5.dist-info                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\cffi                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\cffi-2.0.0.dist-info                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\cftime                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\cftime-1.6.4.post1.dist-info                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\charset_normalizer                                   
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\charset_normalizer-3.4.3.dist-info                   
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\clang                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\click                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\click-8.3.0.dist-info                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\colorama                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\colorama-0.4.6.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\comm                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\comm-0.2.3.dist-info                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\contourpy                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\contourpy-1.3.3.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\cv2                                                  
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\cycler                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\cycler-0.12.1.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\dash                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\dash-3.2.0.dist-info                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\dateutil                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\dateutil-stubs                                       
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\debugpy                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\debugpy-1.8.17.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\decorator.py                                    17067
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\decorator-5.2.1.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\defusedxml                                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\defusedxml-0.7.1.dist-info                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\deprecation.py                                  12895
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\deprecation-2.1.0.dist-info                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\distutils-precedence.pth                          151
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\executing                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\executing-2.2.1.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\fastjsonschema                                       
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\fastjsonschema-2.21.2.dist-info                      
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\filelock                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\filelock-3.19.1.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\flask                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\flask-3.1.2.dist-info                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\flatbuffers                                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\flatbuffers-25.9.23.dist-info                        
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\folium                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\folium-0.20.0.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\fontTools                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\fonttools-4.60.1.dist-info                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\fqdn                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\fqdn-1.5.1.dist-info                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\fsspec                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\fsspec-2025.9.0.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\functorch                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\gast                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\gast-0.6.0.dist-info                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\geoarrow                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\geoarrow_c-0.3.0.dist-info                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\geoarrow_pandas-0.1.1.dist-info                      
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\geoarrow_pyarrow-0.2.0.dist-info                     
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\geoarrow_types-0.3.0.dist-info                       
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\geopandas                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\geopandas-1.1.1.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\google                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\google_pasta-0.2.0.dist-info                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\grpc                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\grpcio-1.75.1.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\h11                                                  
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\h11-0.16.0.dist-info                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\h5py                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\h5py-3.14.0.dist-info                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\httpcore                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\httpcore-1.0.9.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\httpx                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\httpx-0.28.1.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\idna                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\idna-3.10.dist-info                                  
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\importlib_metadata                                   
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\importlib_metadata-8.7.0.dist-info                   
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\ipykernel                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\ipykernel_launcher.py                             512
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\ipykernel-6.30.1.dist-info                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\IPython                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\ipython_pygments_lexers.py                      19656
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\ipython_pygments_lexers-1.1.1.dist-info              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\ipython-9.6.0.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\ipywidgets                                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\ipywidgets-8.1.7.dist-info                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\isapi                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\isoduration                                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\isoduration-20.11.0.dist-info                        
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\isympy.py                                       11220
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\itsdangerous                                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\itsdangerous-2.2.0.dist-info                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jedi                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jedi-0.19.2.dist-info                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jinja2                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jinja2-3.1.6.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\joblib                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\joblib-1.5.2.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\json5                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\json5-0.12.1.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jsonpointer.py                                  10601
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jsonpointer-3.0.0.dist-info                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jsonschema                                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jsonschema_specifications                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jsonschema_specifications-2025.9.1.dist-info         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jsonschema-4.25.1.dist-info                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter.py                                        156
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter_client                                       
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter_client-8.6.3.dist-info                       
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter_console                                      
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter_console-6.6.3.dist-info                      
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter_core                                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter_core-5.8.1.dist-info                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter_events                                       
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter_events-0.12.0.dist-info                      
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter_lsp                                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter_lsp-2.3.0.dist-info                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter_packaging                                    
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter_packaging-0.12.3.dist-info                   
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter_server                                       
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter_server_terminals                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter_server_terminals-0.5.3.dist-info             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter_server-2.17.0.dist-info                      
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyter-1.1.1.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyterlab                                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyterlab_pygments                                  
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyterlab_pygments-0.3.0.dist-info                  
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyterlab_server                                    
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyterlab_server-2.27.3.dist-info                   
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyterlab_widgets                                   
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyterlab_widgets-3.0.15.dist-info                  
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\jupyterlab-4.4.9.dist-info                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\keplergl                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\keplergl-0.3.7.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\keras                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\keras-3.11.3.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\kiwisolver                                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\kiwisolver-1.4.9.dist-info                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\lark                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\lark-1.3.0.dist-info                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\libclang-18.1.1.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\markdown                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\markdown_it                                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\markdown_it_py-4.0.0.dist-info                       
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\markdown-3.9.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\markupsafe                                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\markupsafe-3.0.3.dist-info                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\matplotlib                                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\matplotlib_inline                                    
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\matplotlib_inline-0.1.7.dist-info                    
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\matplotlib-3.10.6.dist-info                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\mdurl                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\mdurl-0.1.2.dist-info                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\mistune                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\mistune-3.1.4.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\ml_dtypes                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\ml_dtypes-0.5.3.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\mpl_toolkits                                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\mpmath                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\mpmath-1.3.0.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\namex                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\namex-0.1.0.dist-info                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\narwhals                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\narwhals-2.7.0.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\nbclient                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\nbclient-0.10.2.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\nbconvert                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\nbconvert-7.16.6.dist-info                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\nbformat                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\nbformat-5.10.4.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\nest_asyncio.py                                  7490
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\nest_asyncio-1.6.0.dist-info                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\netCDF4                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\netCDF4.libs                                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\netCDF4-1.7.2.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\networkx                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\networkx-3.5.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\notebook                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\notebook_shim                                        
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\notebook_shim-0.2.4.dist-info                        
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\notebook-7.4.7.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\numpy                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\numpy.libs                                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\numpy-2.2.6.dist-info                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\numpy-2.2.6-cp312-cp312-win_amd64.whl               0
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\opencv_python-4.12.0.88.dist-info                    
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\opt_einsum                                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\opt_einsum-3.4.0.dist-info                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\optree                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\optree-0.17.0.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\packaging                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\packaging-25.0.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pandas                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pandas.libs                                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pandas-2.3.3.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pandocfilters.py                                 9070
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pandocfilters-1.5.1.dist-info                        
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\parso                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\parso-0.8.5.dist-info                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pasta                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\PIL                                                  
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pillow-11.3.0.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pip                                                  
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pip-25.2.dist-info                                   
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pkg_resources                                        
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\platformdirs                                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\platformdirs-4.4.0.dist-info                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\plotly                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\plotly-6.3.1.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\prometheus_client                                    
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\prometheus_client-0.23.1.dist-info                   
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\prompt_toolkit                                       
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\prompt_toolkit-3.0.52.dist-info                      
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\protobuf-6.32.1.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\psutil                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\psutil-7.1.0.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pure_eval                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pure_eval-0.2.3.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pyarrow                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pyarrow.libs                                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pyarrow-21.0.0.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pycparser                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pycparser-2.23.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pygments                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pygments-2.19.2.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pylab.py                                          110
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pyogrio                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pyogrio.libs                                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pyogrio-0.11.1.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pyparsing                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pyparsing-3.2.5.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pyproj                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pyproj.libs                                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pyproj-3.7.2.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\python_dateutil-2.9.0.post0.dist-info                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\python_json_logger-4.0.0.dist-info                   
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pythoncom.py                                      143
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pythonjsonlogger                                     
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pythonwin                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pytz                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pytz-2025.2.dist-info                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\PyWin32.chm                                    ...500
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pywin32.pth                                       185
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pywin32.version.txt                                 5
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pywin32_system32                                     
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pywin32-311.dist-info                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pywinpty-3.0.2.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pyyaml-6.0.3.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\pyzmq-27.1.0.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\referencing                                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\referencing-0.36.2.dist-info                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\requests                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\requests-2.32.5.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\retrying.py                                     12267
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\retrying-1.4.2.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\rfc3339_validator.py                             1110
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\rfc3339_validator-0.1.4.dist-info                    
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\rfc3986_validator.py                             4395
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\rfc3986_validator-0.1.1.dist-info                    
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\rfc3987_syntax                                       
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\rfc3987_syntax-1.1.0.dist-info                       
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\rich                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\rich-14.1.0.dist-info                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\rpds                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\rpds_py-0.27.1.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\scikit_learn-1.7.2.dist-info                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\scipy                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\scipy.libs                                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\scipy-1.16.2.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\scipy-1.16.2-cp312-cp312-win_amd64.whl              0
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\send2trash                                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\Send2Trash-1.8.3.dist-info                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\setuptools                                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\setuptools-80.9.0.dist-info                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\shapely                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\shapely.libs                                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\shapely-2.1.2.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\six.py                                          34703
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\six-1.17.0.dist-info                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\sklearn                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\sniffio                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\sniffio-1.3.1.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\soupsieve                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\soupsieve-2.8.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\stack_data                                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\stack_data-0.6.3.dist-info                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\sympy                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\sympy-1.14.0.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\tensorboard                                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\tensorboard_data_server                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\tensorboard_data_server-0.7.2.dist-info              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\tensorboard-2.20.0.dist-info                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\tensorflow                                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\tensorflow-2.20.0.dist-info                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\termcolor                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\termcolor-3.1.0.dist-info                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\terminado                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\terminado-0.18.1.dist-info                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\threadpoolctl.py                                50722
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\threadpoolctl-3.6.0.dist-info                        
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\tinycss2                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\tinycss2-1.4.0.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\tomlkit                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\tomlkit-0.13.3.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\torch                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\torch-2.8.0.dist-info                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\torchgen                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\tornado                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\tornado-6.5.2.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\traitlets                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\traitlets-5.14.3.dist-info                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\traittypes                                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\traittypes-0.2.1.dist-info                           
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\types_python_dateutil-2.9.0.20251008.dist-info       
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\typing_extensions.py                           160429
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\typing_extensions-4.15.0.dist-info                   
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\tzdata                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\tzdata-2025.2.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\uri_template                                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\uri_template-1.3.0.dist-info                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\urllib3                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\urllib3-2.5.0.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\wcwidth                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\wcwidth-0.2.14.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\webcolors                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\webcolors-24.11.1.dist-info                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\webencodings                                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\webencodings-0.5.1.dist-info                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\websocket                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\websocket_client-1.9.0.dist-info                     
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\werkzeug                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\werkzeug-3.1.3.dist-info                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\wheel                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\wheel-0.45.1.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\widgetsnbextension                                   
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\widgetsnbextension-4.0.14.dist-info                  
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\win32                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\win32com                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\win32comext                                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\winpty                                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\wrapt                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\wrapt-1.17.3.dist-info                               
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\xgboost                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\xgboost-3.0.5.dist-info                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\xyzservices                                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\xyzservices-2025.4.0.dist-info                       
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\yaml                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\zipp                                                 
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\zipp-3.23.0.dist-info                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Lib\site-packages\zmq                                                  
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\pyvenv.cfg                                                          231
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts                                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\__pycache__                                                    
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\__pycache__\pywin32_postinstall.cpython-312.pyc           29640
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\__pycache__\pywin32_testall.cpython-312.pyc                4759
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\activate                                                   2052
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\activate.bat                                                999
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\Activate.ps1                                              26199
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\dash-generate-components.exe                             108391
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\dash-update-components.exe                               108389
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\deactivate.bat                                              393
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\debugpy.exe                                              108375
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\debugpy-adapter.exe                                      108381
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\f2py.exe                                                 108374
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\flask.exe                                                108366
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\fonttools.exe                                            108375
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\httpx.exe                                                108362
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\import_pb_to_tensorboard.exe                             108405
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\ipython.exe                                              108382
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\ipython3.exe                                             108382
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\isympy.exe                                               108363
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jlpm.exe                                                 108375
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jsonpointer                                                1817
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jsonschema.exe                                           108371
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter.exe                                              108377
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter-console.exe                                      108376
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter-dejavu.exe                                       108393
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter-events.exe                                       108375
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter-execute.exe                                      108369
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter-kernel.exe                                       108381
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter-kernelspec.exe                                   108419
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter-lab.exe                                          108374
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter-labextension.exe                                 108381
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter-labhub.exe                                       108377
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter-migrate.exe                                      108377
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter-nbconvert.exe                                    108379
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter-notebook.exe                                     108369
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter-run.exe                                          108398
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter-server.exe                                       108381
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter-troubleshoot.exe                                 108382
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\jupyter-trust.exe                                        108410
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\markdown_py.exe                                          108372
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\markdown-it.exe                                          108378
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\nc3tonc4.exe                                             108378
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\nc4tonc3.exe                                             108378
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\ncinfo.exe                                               108374
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\normalizer.exe                                           108391
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\numpy-config.exe                                         108374
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\pip.exe                                                  108408
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\pip3.12.exe                                              108408
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\pip3.exe                                                 108408
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\plotly_get_chrome.exe                                    108401
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\pybabel.exe                                              108380
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\pyftmerge.exe                                            108372
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\pyftsubset.exe                                           108373
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\pygmentize.exe                                           108373
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\pyjson5.exe                                              108367
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\pyproj.exe                                               108372
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\python.exe                                               270104
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\pythonw.exe                                              258840
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\pywin32_postinstall.exe                                  108390
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\pywin32_postinstall.py                                    25736
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\pywin32_testall.exe                                      108386
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\pywin32_testall.py                                         3847
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\renderer.exe                                             108395
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\saved_model_cli.exe                                      108396
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\send2trash.exe                                           108376
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\tensorboard.exe                                          108381
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\tf_upgrade_v2.exe                                        108406
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\tflite_convert.exe                                       108394
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\toco.exe                                                 108394
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\torchfrtrace.exe                                         108387
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\torchrun.exe                                             108378
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\ttx.exe                                                  108370
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\wheel.exe                                                108366
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\wsdump.exe                                               108374
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\share                                                                  
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\share\applications                                                     
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\share\applications\jupyterlab.desktop                               227
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\share\applications\jupyter-notebook.desktop                         242
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\share\icons                                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\share\icons\hicolor                                                    
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\share\jupyter                                                          
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\share\jupyter\kernels                                                  
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\share\jupyter\lab                                                      
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\share\jupyter\labextensions                                            
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\share\jupyter\nbconvert                                                
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\share\jupyter\nbextensions                                             
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\share\man                                                              
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\share\man\man1                                                         
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\share\xyzservices                                                      
+C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\share\xyzservices\providers.json                                 788420
+
+
+
+--- SRC FILES (first 200 lines each) ---
+----- 03_data_cleaning.py -----
+import os
+import pandas as pd
+
+# Load sample data
+df = pd.read_csv("data/raw/ibtracs_nio_sample.csv")
+
+# ðŸ”¹ Convert LAT and LON columns to numeric (force invalid entries to NaN)
+df["LAT"] = pd.to_numeric(df["LAT"], errors="coerce")
+df["LON"] = pd.to_numeric(df["LON"], errors="coerce")
+
+# ðŸ”¹ Drop rows where LAT or LON are missing or invalid
+df = df.dropna(subset=["LAT", "LON"])
+
+# ðŸ”¹ Filter out unrealistic coordinates
+df = df[df["LAT"].between(-90, 90) & df["LON"].between(-180, 180)]
+
+# ðŸ”¹ Save cleaned data to processed folder
+os.makedirs("data/processed", exist_ok=True)
+processed_data_path = "data/processed/ibtracs_nio_cleaned.csv"
+df.to_csv(processed_data_path, index=False)
+
+print(f"\nâœ… Cleaned dataset saved at: {processed_data_path}")
+print(f"âœ… Rows after cleaning: {len(df)}")
+print("âœ… Data cleaning completed successfully!")
+
+----- test_data.py -----
+import pandas as pd
+
+# Load the sample dataset
+df = pd.read_csv("data/raw/ibtracs_nio_sample.csv")
+
+# Show first 5 rows
+print(df.head())
+
+--- DATA RAW (list) ---
+
+Name                         Length
+----                         ------
+ibtracs.NI.list.v04r01.csv 27665340
+ibtracs_nio_sample.csv       434271
+
+
+
+--- DATA PROCESSED (list) ---
+
+Name                    Length
+----                    ------
+ibtracs_nio_cleaned.csv 433248
+
+
+
+--- PREVIEW processed/ibtracs_nio_cleaned.csv (first 20 lines) ---
+SID,SEASON,NUMBER,BASIN,SUBBASIN,NAME,ISO_TIME,NATURE,LAT,LON,WMO_WIND,WMO_PRES,WMO_AGENCY,TRACK_TYPE,DIST2LAND,LANDFALL,IFLAG,USA_AGENCY,USA_ATCF_ID,USA_LAT,USA_LON,USA_RECORD,USA_STATUS,USA_WIND,USA_PRES,USA_SSHS,USA_R34_NE,USA_R34_SE,USA_R34_SW,USA_R34_NW,USA_R50_NE,USA_R50_SE,USA_R50_SW,USA_R50_NW,USA_R64_NE,USA_R64_SE,USA_R64_SW,USA_R64_NW,USA_POCI,USA_ROCI,USA_RMW,USA_EYE,TOKYO_LAT,TOKYO_LON,TOKYO_GRADE,TOKYO_WIND,TOKYO_PRES,TOKYO_R50_DIR,TOKYO_R50_LONG,TOKYO_R50_SHORT,TOKYO_R30_DIR,TOKYO_R30_LONG,TOKYO_R30_SHORT,TOKYO_LAND,CMA_LAT,CMA_LON,CMA_CAT,CMA_WIND,CMA_PRES,HKO_LAT,HKO_LON,HKO_CAT,HKO_WIND,HKO_PRES,KMA_LAT,KMA_LON,KMA_CAT,KMA_WIND,KMA_PRES,KMA_R50_DIR,KMA_R50_LONG,KMA_R50_SHORT,KMA_R30_DIR,KMA_R30_LONG,KMA_R30_SHORT,NEWDELHI_LAT,NEWDELHI_LON,NEWDELHI_GRADE,NEWDELHI_WIND,NEWDELHI_PRES,NEWDELHI_CI,NEWDELHI_DP,NEWDELHI_POCI,REUNION_LAT,REUNION_LON,REUNION_TYPE,REUNION_WIND,REUNION_PRES,REUNION_TNUM,REUNION_CI,REUNION_RMW,REUNION_R34_NE,REUNION_R34_SE,REUNION_R34_SW,REUNION_R34_NW,REUNION_R50_NE,REUNION_R50_SE,REUNION_R50_SW,REUNION_R50_NW,REUNION_R64_NE,REUNION_R64_SE,REUNION_R64_SW,REUNION_R64_NW,BOM_LAT,BOM_LON,BOM_TYPE,BOM_WIND,BOM_PRES,BOM_TNUM,BOM_CI,BOM_RMW,BOM_R34_NE,BOM_R34_SE,BOM_R34_SW,BOM_R34_NW,BOM_R50_NE,BOM_R50_SE,BOM_R50_SW,BOM_R50_NW,BOM_R64_NE,BOM_R64_SE,BOM_R64_SW,BOM_R64_NW,BOM_ROCI,BOM_POCI,BOM_EYE,BOM_POS_METHOD,BOM_PRES_METHOD,NADI_LAT,NADI_LON,NADI_CAT,NADI_WIND,NADI_PRES,WELLINGTON_LAT,WELLINGTON_LON,WELLINGTON_WIND,WELLINGTON_PRES,DS824_LAT,DS824_LON,DS824_STAGE,DS824_WIND,DS824_PRES,TD9636_LAT,TD9636_LON,TD9636_STAGE,TD9636_WIND,TD9636_PRES,TD9635_LAT,TD9635_LON,TD9635_WIND,TD9635_PRES,TD9635_ROCI,NEUMANN_LAT,NEUMANN_LON,NEUMANN_CLASS,NEUMANN_WIND,NEUMANN_PRES,MLC_LAT,MLC_LON,MLC_CLASS,MLC_WIND,MLC_PRES,USA_GUST,BOM_GUST,BOM_GUST_PER,REUNION_GUST,REUNION_GUST_PER,USA_SEAHGT,USA_SEARAD_NE,USA_SEARAD_SE,USA_SEARAD_SW,USA_SEARAD_NW,STORM_SPEED,STORM_DIR
+1842298N11080,1842,1,NI,BB,UNNAMED,1842-10-25 03:00:00,NR,10.9,80.3, , , ,main,43,0,___________O___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,10.9,80.3,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,9,265
+1842298N11080,1842,1,NI,BB,UNNAMED,1842-10-25 06:00:00,NR,10.9,79.8, , , ,main,0,0,___________P___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,10.9,79.8,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,9,265
+1842298N11080,1842,1,NI,BB,UNNAMED,1842-10-25 09:00:00,NR,10.8,79.4, , , ,main,0,0,___________P___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,10.8,79.4,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,9,265
+1842298N11080,1842,1,NI,BB,UNNAMED,1842-10-25 12:00:00,NR,10.8,78.9, , , ,main,0,0,___________P___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,10.8,78.9,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,9,265
+1842298N11080,1842,1,NI,BB,UNNAMED,1842-10-25 15:00:00,NR,10.8,78.4, , , ,main,0,0,___________O___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,10.8,78.4,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,9,270
+1842298N11080,1842,1,NI,AS,UNNAMED,1842-10-25 18:00:00,NR,10.8,77.9, , , ,main,0,0,___________P___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,10.8,77.9,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,10,270
+1842298N11080,1842,1,NI,AS,UNNAMED,1842-10-25 21:00:00,NR,10.8,77.4, , , ,main,0,0,___________P___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,10.8,77.4,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,10,270
+1842298N11080,1842,1,NI,AS,UNNAMED,1842-10-26 00:00:00,NR,10.8,76.9, , , ,main,0,0,___________P___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,10.8,76.9,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,10,270
+1842298N11080,1842,1,NI,AS,UNNAMED,1842-10-26 03:00:00,NR,10.8,76.4, , , ,main,0,0,___________O___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,10.8,76.4,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,11,270
+1842298N11080,1842,1,NI,AS,UNNAMED,1842-10-26 06:00:00,NR,10.8,75.8, , , ,main,10,10,___________P___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,10.8,75.8,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,11,270
+1842298N11080,1842,1,NI,AS,UNNAMED,1842-10-26 09:00:00,NR,10.8,75.3, , , ,main,65,65,___________P___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,10.8,75.3,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,11,270
+1842298N11080,1842,1,NI,AS,UNNAMED,1842-10-26 12:00:00,NR,10.9,74.7, , , ,main,119,119,___________P___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,10.9,74.7,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,11,275
+1842298N11080,1842,1,NI,AS,UNNAMED,1842-10-26 15:00:00,NR,10.9,74.1, , , ,main,171,171,___________O___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,10.9,74.1,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,11,275
+1842298N11080,1842,1,NI,AS,UNNAMED,1842-10-26 18:00:00,NR,11.0,73.5, , , ,main,216,216,___________P___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,11.0,73.5,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,11,275
+1842298N11080,1842,1,NI,AS,UNNAMED,1842-10-26 21:00:00,NR,11.0,73.0, , , ,main,264,264,___________P___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,11.0,73.0,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,11,280
+1842298N11080,1842,1,NI,AS,UNNAMED,1842-10-27 00:00:00,NR,11.1,72.4, , , ,main,318,318,___________P___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,11.1,72.4,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,11,280
+1842298N11080,1842,1,NI,AS,UNNAMED,1842-10-27 03:00:00,NR,11.2,71.9, , , ,main,362,362,___________O___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,11.2,71.9,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,10,275
+1842298N11080,1842,1,NI,AS,UNNAMED,1842-10-27 06:00:00,NR,11.3,71.4, , , ,main,406,406,___________P___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,11.3,71.4,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,10,275
+1842298N11080,1842,1,NI,AS,UNNAMED,1842-10-27 09:00:00,NR,11.3,70.9, , , ,main,456,456,___________P___, , , , , , , , ,-5, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,11.3,70.9,7, , , , , , , , , , , , , , , , , , , , , , , , , , , ,9,275
+
+--- LAST 200 LINES of PowerShell history (optional) ---
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/python folder/prog_py2"
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/python folder/prog_py2.txt"
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/python folder/expense_tracker"
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/python folder/basic_quiz_game/prog_py3"
+jupyter lab 
+"C:\Users\Teja\OneDrive\Desktop\project"
+mongosh
+pip install numpy
+mongosh
+venv\Scripts\activate
+pip install faker
+venv\Scripts\activate
+dir
+pip install faker 
+pip install faker
+pip uninstall faker
+pip show faker
+venv\Scripts\activate
+python -m venv venv
+& "C:/Program Files/Python312/python.exe" c:\Users\Teja\.vscode\extensions\ms-python.python-2024.21.2024112701-win32-x64\python_files\printEnvVariablesToFile.py c:\Users\Teja\.vscode\extensions\ms-python.python-2024.21.2024112701-win32-x64\python_files\deactivate\powershell\envVars.txt
+venv\Scripts\activate
+Get-ExecutionPolicy -Scope CurrentUser
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+Get-ExecutionPolicy -Scope CurrentUser
+.\venv\Scripts\Activate
+venv\Scripts\activate
+pip install faker
+pip show faker
+& "C:/Program Files/Python312/python.exe" c:\Users\Teja\.vscode\extensions\ms-python.python-2024.21.2024112701-win32-x64\python_files\printEnvVariablesToFile.py c:\Users\Teja\.vscode\extensions\ms-python.python-2024.21.2024112701-win32-x64\python_files\deactivate\powershell\envVars.txt
+venv\Scripts\activate
+pip show flask
+pip install flask
+.\venv\Scripts\python.exe
+pip install pandas
+pip install requests
+& "C:/Program Files/Python312/python.exe" c:\Users\Teja\.vscode\extensions\ms-python.python-2024.21.2024112701-win32-x64\python_files\printEnvVariablesToFile.py c:\Users\Teja\.vscode\extensions\ms-python.python-2024.21.2024112701-win32-x64\python_files\deactivate\powershell\envVars.txt
+python activity_tracker.py
+python activity_tracker.py`
+
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/Personal Productivity Tracker.py"
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/python folder/word_counter/random username.py"
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/python folder/python  practice/demo.py"
+dhehfh
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/python folder/python  practice/demo.py"
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/python folder/python  practice/samp.py"
+& "C:/Program Files/Python312/python.exe" c:/Users/Teja/OneDrive/Desktop/hackaathon/us.py
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/OneDrive/Desktop/random username.py"
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/OneDrive/Desktop/word counter.py"
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/OneDrive/Desktop/expence tracker.py"
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/OneDrive/Desktop/virtual coin.py"
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/OneDrive/Desktop/random username.py"
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/OneDrive/Desktop/word counter.py"
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/OneDrive/Desktop/expence tracker.py"
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/OneDrive/Desktop/virtual coin.py"
+ & 'c:\Program Files\Python312\python.exe' 'c:\Users\Teja\.vscode\extensions\ms-python.debugpy-2025.8.0-win32-x64\bundled\libs\debugpy\launcher' '57590' '--' 'C:\Users\Teja\OneDrive\Desktop\random username.py' 
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/OneDrive/Desktop/expence tracker.py"
+& "C:/Program Files/Python312/python.exe" "c:/Users/Teja/OneDrive/Desktop/random username.py"
+c:/Users/Teja/AppData/Local/Programs/Python/Python313/python.exe
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/Teja/OneDrive/Desktop/python programming/app.py"
+c:/Users/Teja/AppData/Local/Programs/Python/Python313/python.exe
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/Teja/OneDrive/Desktop/python programming/app.py"
+C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/Teja/OneDrive/Desktop/python programming/app.py"
+2+2
+2>1
+2>5
+2+10
+c:/Users/Teja/AppData/Local/Programs/Python/Python313/python.exe
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/Teja/OneDrive/Desktop/python programming/app.py"
+python3
+C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/Teja/OneDrive/Desktop/python programming/app.py"
+python app.py
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/Teja/OneDrive/Desktop/python programming/app.py"
+C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/Teja/OneDrive/Desktop/python programming/app.py"
+c:/Users/Teja/AppData/Local/Programs/Python/Python313/python.exe
+C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/Teja/OneDrive/Desktop/python programming/app.py"
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/Teja/OneDrive/Desktop/python programming/chatbot.py"
+C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/Teja/OneDrive/Desktop/python programming/chatbot.py"
+copilot-debug C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/Teja/OneDrive/Desktop/python programming/chatbot.py"python -m pip install transformers
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/Teja/OneDrive/Desktop/python programming/app.py"
+uvicorn shopify_insights_fetcher.main:app --reload
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/main.py
+   pip install fastapi
+   pip install uvicorn
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/main.py
+C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe -m pip install fastapi uvicorn
+C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe -m pip install --upgrade pip
+C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe -m pip install beautifulsoup4
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/main.py
+uvicorn main:app --reload
+cd C:\Users\Teja\shopify_insights_fetcher
+uvicorn main:app --reload
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/db.py
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/db.py
+C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe -m pip install sqlalchemy mysql-connector-python
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/db.py
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/main.py
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/db.py
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/main.py
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/db.py
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/main.py
+cd C:\Users\Teja\shopify_insights_fetcher
+uvicorn main:app --reload
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/main.py
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/db.py
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/main.py
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/db.py
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/main.py
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/db.py
+uvicorn main:app --reload
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe c:/Users/Teja/shopify_insights_fetcher/main.py
+& C:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/Teja/OneDrive/Desktop/IPL Match Analysis/ipl_code.py"
+pip install streamlit
+streamlit run chatbot_web.py
+pip install Flask Flask-Cors
+run chatbot.py
+streamlit run [chatbot_web.py](http://_vscodecontentref_/1)
+streamlit run chatbot_web.py
+curl -X POST -F "file=@yourfile.pdf" http://127.0.0.1:5000/upload`
+
+curl.exe -X POST -F "file=@yourfile.pdf" http://127.0.0.1:5000/upload`
+
+curl.exe -X POST -F "file=@C:\Users\Teja\Downloads\rinvoq_pi.pdf" http://127.0.0.1:5000/upload`
+
+pip install sentence-transformers`
+
+curl.exe -X POST -F "file=@C:\Users\Teja\Downloads\rinvoq_pi.pdf" http://127.0.0.1:5000/upload`
+
+cd C:\Users\Teja\OneDrive\Desktop\chatbot`
+python chatbot.py`
+python -m http.server 5000
+streamlit run chatbot.py`
+streamlit run chatbot_web.py`
+
+ & 'c:\Users\Teja\AppData\Local\Programs\Python\Python313\python.exe' 'c:\Users\Teja\.vscode\extensions\ms-python.debugpy-2025.10.0-win32-x64\bundled\libs\debugpy\launcher' '62323' '--' 'C:\Users\Teja\OneDrive\Desktop\chatbot\chatbot_web.py' 
+& "C:\Users\Teja\OneDrive\Desktop\Dynamic Cyclone Early Warning Systems\venv\Scripts\Activate.ps1"
+pip install -r requirements.txt
+copilot-debug pip install -r requirements.txt
+& "C:\Users\Teja\OneDrive\Desktop\Dynamic Cyclone Early Warning Systems\venv\Scripts\Activate.ps1"
+pip install -r "C:\Users\Teja\OneDrive\Desktop\Dynamic Cyclone Early Warning Systems\venv\requirements.txt"
+pip uninstall -r "venv/requirements.txt" -y
+Remove-Item -Recurse -Force .\venv
+dir data\raw
+cd C:\Users\Teja\cyclone-ews
+cd C:\Users\Teja\OneDrive\Desktop\cyclone-ews
+venv\Scripts\activate
+python
+cd C:\Users\Teja\OneDrive\Desktop\cyclone-ews
+venv\Scripts\activate
+python
+& C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\Activate.ps1
+ & 'c:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\python.exe' 'c:\Users\Teja\.vscode\extensions\ms-python.debugpy-2025.14.1-win32-x64\bundled\libs\debugpy\launcher' '57913' '--' 'C:\Users\Teja\OneDrive\Desktop\cyclone-ews\src\test_data.py' 
+& C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\Activate.ps1
+& C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\Activate.ps1
+python 03_data_cleaning.py`
+
+& C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\Activate.ps1
+(venv) PS C:\Users\Teja\OneDrive\Desktop\cyclone-ews>`
+
+python 03_data_cleaning.py`
+
+mkdir data\processed`
+
+python src/03_data_cleaning.py`
+
+aws --version
+aws configure
+aws sts get-caller-identity
+cd Desktop
+node index.js
+& C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\Activate.ps1
+& C:\Users\Teja\OneDrive\Desktop\cyclone-ews\venv\Scripts\Activate.ps1
+cd "C:\Users\Teja\OneDrive\Desktop\cyclone-ews"
+.\venv\Scripts\Activate.ps1
+$out = "diagnostics.txt"
+"=== DIAGNOSTICS REPORT ===" | Out-File $out -Encoding utf8
+"Timestamp: $(Get-Date)" | Out-File $out -Append -Encoding utf8
+"--- PYTHON INTERPRETER & VENV ---" | Out-File $out -Append -Encoding utf8
+where.exe python | Out-File $out -Append -Encoding utf8
+python -V 2>&1 | Out-File $out -Append -Encoding utf8
+"VIRTUAL_ENV:" | Out-File $out -Append -Encoding utf8
+echo $env:VIRTUAL_ENV | Out-File $out -Append -Encoding utf8
+python -m pip list --disable-pip-version-check 2>&1 | Select-String -Pattern "pandas","tensorflow","torch","scikit-learn","xgboost","plotly" | Out-File $out -Append -Encoding utf8
+"--- PROJECT TREE (top 3 levels) ---" | Out-File $out -Append -Encoding utf8
+Get-ChildItem -Recurse -Force -Depth 3 | Sort-Object FullName | Format-Table FullName,Length -AutoSize | Out-String | Out-File $out -Append -Encoding utf8
+"--- SRC FILES (first 200 lines each) ---" | Out-File $out -Append -Encoding utf8
+$srcFiles = Get-ChildItem .\src -File -ErrorAction SilentlyContinue
+if ($srcFiles) {`
+  foreach ($f in $srcFiles) {`
+    "----- $($f.Name) -----" | Out-File $out -Append -Encoding utf8`
+    Get-Content $f.FullName -TotalCount 200 | Out-String | Out-File $out -Append -Encoding utf8`
+  }`
+} else { "no src files found" | Out-File $out -Append -Encoding utf8 }
+"--- DATA RAW (list) ---" | Out-File $out -Append -Encoding utf8
+Get-ChildItem .\data\raw -File -ErrorAction SilentlyContinue | Format-Table Name,Length -AutoSize | Out-String | Out-File $out -Append -Encoding utf8
+"--- DATA PROCESSED (list) ---" | Out-File $out -Append -Encoding utf8
+Get-ChildItem .\data\processed -File -ErrorAction SilentlyContinue | Format-Table Name,Length -AutoSize | Out-String | Out-File $out -Append -Encoding utf8
+"--- PREVIEW processed/ibtracs_nio_cleaned.csv (first 20 lines) ---" | Out-File $out -Append -Encoding utf8
+if (Test-Path .\data\processed\ibtracs_nio_cleaned.csv) { Get-Content .\data\processed\ibtracs_nio_cleaned.csv -TotalCount 20 | Out-String | Out-File $out -Append -Encoding utf8 } else { "file not found" | Out-File $out -Append -Encoding utf8 }
+"--- LAST 200 LINES of PowerShell history (optional) ---" | Out-File $out -Append -Encoding utf8
+if ((Get-PSReadlineOption).HistorySavePath) { (Get-Content (Get-PSReadlineOption).HistorySavePath -ErrorAction SilentlyContinue | Select-Object -Last 200) | Out-String | Out-File $out -Append -Encoding utf8 } else { "no history file" | Out-File $out -Append -Encoding utf8 }
+
+=== END OF REPORT ===
