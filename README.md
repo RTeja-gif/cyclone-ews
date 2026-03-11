@@ -2,35 +2,43 @@
 
 
 
-This project develops a lightweight cyclone movement prediction system using deep learning.
+This project implements a lightweight cyclone movement prediction system using historical cyclone track data and deep learning.
 
 
 
-The system predicts short-term cyclone trajectory using historical IBTrACS cyclone track data and an LSTM model.
+The system predicts short-term cyclone trajectories using an LSTM model trained on IBTrACS cyclone records from the North Indian Ocean basin.
 
 
 
 \## Features
 
-\- Cyclone path prediction using LSTM
 
-\- Uses historical latitude and longitude data
 
-\- Short-term trajectory forecasting
+• Cyclone trajectory prediction using LSTM  
 
-\- Interactive dashboard using Plotly Dash
+• Uses only latitude and longitude data  
 
-\- RMSE ≈ 0.93° (~104 km)
+• Displacement-based forecasting  
+
+• RMSE ≈ 0.93° (~104 km)  
+
+• Interactive dashboard using Plotly Dash  
 
 
 
 \## Dataset
 
-IBTrACS – International Best Track Archive for Climate Stewardship
+
+
+IBTrACS – International Best Track Archive for Climate Stewardship  
+
+https://www.ncei.noaa.gov/products/international-best-track-archive
 
 
 
 \## Technologies
+
+
 
 Python  
 
@@ -38,13 +46,23 @@ TensorFlow / Keras
 
 Pandas  
 
+NumPy  
+
 Scikit-learn  
 
 Plotly Dash  
 
 
 
-\## Run Dashboard
+\## Project Workflow
+
+
+
+Dataset → Data Cleaning → Sequence Creation → Model Training → Evaluation → Dashboard Visualization
+
+
+
+\## Run the Dashboard
 
 
 
